@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <!-- Google Font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <!-- DaisyUI and TailwindCSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-lexend {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'light-green': '#B4F461'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-lexend">
+    <header class="h-max bg-[#F9F7F3]">
+        <nav
+            class="w-4/5 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center space-y-5 lg:space-y-0 pt-[25px] pb-[55px]">
+            <button
+                class="btn btn-success bg-light-green border-0 px-[32px] text-xl text-[#111111] font-semibold">Blog</button>
+            <div class="title-container flex items-center space-x-3">
+                <img class="" src="./assets/logo.png" alt="">
+                <h3 class="text-xl text-[#111111] font-semibold">Donate Bangladesh</h3>
+            </div>
+            <div class="balance-container flex items-center space-x-3">
+                <img src="./assets/coin.png" alt="">
+                <h3 id="balance" class="text-[#111111] font-medium text-xl">5500</h3>
+                <h3 class="text-[#111111] font-medium text-xl">BDT</h3>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
