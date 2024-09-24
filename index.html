@@ -34,9 +34,10 @@
 </head>
 
 <body class="font-lexend">
+    <!-- Header section start -->
     <header class="h-max bg-[#F9F7F3]">
         <nav
-            class="w-4/5 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center space-y-5 lg:space-y-0 pt-[25px] pb-[55px]">
+            class="sticky w-4/5 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center space-y-5 lg:space-y-0 pt-[25px] pb-[55px]">
             <button
                 class="btn btn-success bg-light-green border-0 px-[32px] text-xl text-[#111111] font-semibold">Blog</button>
             <div class="title-container flex items-center space-x-3">
@@ -45,17 +46,24 @@
             </div>
             <div class="balance-container flex items-center space-x-3">
                 <img src="./assets/coin.png" alt="">
-                <h3 id="balance" class="text-[#111111] font-medium text-xl">5500</h3>
-                <h3 class="text-[#111111] font-medium text-xl">BDT</h3>
+                <h3 id="balance" class="text-[#111111] opacity-70 font-medium text-xl">5500</h3>
+                <h3 class="text-[#111111] opacity-70 font-medium text-xl">BDT</h3>
             </div>
         </nav>
     </header>
+    <!-- Header section end -->
+    <!-- Main section start -->
     <main>
-
+        <!-- Donation and History Section Start -->
+        <section class="w-4/5 mx-auto">
+            <div class="w-max mt-20 mx-auto space-x-4">
+                <button class="btn  border-0 px-[32px] text-xl text-[#111111] opacity-70 font-semibold">Donation</button>
+                <button class="btn  border-0 px-[32px] text-xl text-[#111111] opacity-70 font-semibold">History</button>
+            </div>
+        </section>
+        <!-- Donation and History Section End -->
     </main>
-    <footer>
-
-    </footer>
+    <!-- Main section end -->
 </body>
 
 </html>
